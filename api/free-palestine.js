@@ -19,7 +19,8 @@ export default async function handler(req, res) {
         `http://mrn-bio.social-networking.me/cobraCll.php?num=${phone}`,
         `https://yousuf323215.serv00.net/call90.php?number=${phone}`,
         `https://bomber-lyart.vercel.app/api/bomber3?phone=${phone}`,  
-        `https://bomberdemofor2hrtcs.vercel.app/api/trialapi?phone=${phone}`// Added API
+        `https://bomber-lyart.vercel.app/api/bomber5?phone=${phone}`,
+        `https://bomber-lyart.vercel.app/api/bomber6?phone=${phone}`// Added API
     ];
 
     let successCount = 0;
