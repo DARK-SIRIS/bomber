@@ -1,3 +1,4 @@
+
 export default async function handler(req, res) {
     // Allow both GET and POST methods
     if (req.method !== "GET" && req.method !== "POST") {
@@ -13,12 +14,12 @@ export default async function handler(req, res) {
 
     // API endpoints
     const apis = [
-        `https://bomber-lyart.vercel.app/api/bomber1?phone=${phone}`,
-        `https://bomber-lyart.vercel.app/api/bomber2?phone=${phone}`,
-        `https://bomber-lyart.vercel.app//api/bomber4?num=${phone}`,
-        `https://bomber-lyart.vercel.app/api/bomber3?phone=${phone}`,  
-        `https://bomber-lyart.vercel.app/api/bomber5?phone=${phone}`,
-        `https://bomber-lyart.vercel.app/api/bomber6?phone=${phone}`// Added API
+        `https://abdullah2nesite.vercel.app/api/bomber1?phone=${phone}`,
+        `https://abdullah2nesite.vercel.app/api/bomber2?phone=${phone}`,
+        `https://abdullah2nesite.vercel.app/api/bomber4?phnoe=${phone}`,
+        `https://abdullah2nesite.vercel.app/api/bomber3?phone=${phone}`,  
+        `https://abdullah2nesite.vercel.app/api/bomber5?phone=${phone}`,
+        `https://abdullah2nesite.vercel.app/api/bomber6?phone=${phone}`// Added API
     ];
 
     let successCount = 0;
@@ -41,7 +42,7 @@ export default async function handler(req, res) {
         success: successCount,
         failed: errorCount,
         message: "Bombing started successfully.",
-        Fuck: "https://ssc-batch-2025.netlify.app/",
+        website: "https://abdullah.2ne.site",
         owner: "ABDULLHA"
     });
 }
