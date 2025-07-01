@@ -14,12 +14,12 @@ export default async function handler(req, res) {
 
     // API endpoints
     const apis = [
-        `https://abdullah2nesite.vercel.app/api/bomber1?phone=${phone}`,
-        `https://abdullah2nesite.vercel.app/api/bomber2?phone=${phone}`,
-        `https://abdullah2nesite.vercel.app/api/bomber4?phnoe=${phone}`,
-        `https://abdullah2nesite.vercel.app/api/bomber3?phone=${phone}`,  
-        `https://abdullah2nesite.vercel.app/api/bomber5?phone=${phone}`,
-        `https://abdullah2nesite.vercel.app/api/bomber6?phone=${phone}`// Added API
+        `https://premium-bomber.vercel.app/api/bomber1?phone=${phone}`,
+        `https://premium-bomber.vercel.app/api/bomber2?phone=${phone}`,
+        `https://premium-bomber.vercel.app/api/bomber4?phnoe=${phone}`,
+        `https://premium-bomber.vercel.app/api/bomber3?phone=${phone}`,  
+        `https://premium-bomber.vercel.app/api/bomber5?phone=${phone}`,
+        `https://premium-bomber.vercel.app/api/bomber6?phone=${phone}`// Added API
     ];
 
     let successCount = 0;
