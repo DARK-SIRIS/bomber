@@ -1137,3 +1137,78 @@ footer {
     font-size: 1.2rem;
   }
 }
+    .swal2-glass {
+      backdrop-filter: blur(10px);
+      border: 2px solid #39cacf;
+      box-shadow: 0 0 15px #00f7ff;
+      border-radius: 15px;
+    }
+
+    /* Glass Stats Box */
+    .stats-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      background: rgba(20, 20, 30, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      min-width: 150px;
+      text-align: center;
+      border: 1px solid rgba(0, 247, 255, 0.2);
+      box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        inset 0 0 8px rgba(0, 247, 255, 0.1);
+      transition: var(--transition);
+    }
+
+    .stat-box:hover {
+      transform: translateY(-5px);
+      box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.3),
+        0 0 20px rgba(0, 247, 255, 0.2);
+    }
+
+    .stat-title {
+      font-size: 0.9rem;
+      color: var(--secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-value {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      text-shadow: 0 0 8px var(--primary);
+    }
+
+    /* AD FREE Button */
+    .adfree-btn {
+      background: rgba(255, 0, 247, 0.15);
+      color: var(--secondary);
+      border: 1px solid var(--secondary);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 2rem;
+      font-family: 'Kanit', sans-serif;
+      transition: var(--transition);
+      backdrop-filter: blur(5px);
+      position: relative;
+      overflow: hidden;
+      margin-left: 1rem;
+    }
+
+    .adfree-btn:hover {
+      background: rgba(255, 0, 247, 0.3);
+      box-shadow: 0 0 15px var(--secondary);
+    }
+
+    .adfree-btn i {
+      margin-right: 0.5rem;
+    }
